@@ -215,21 +215,64 @@ function initLoadingScreen() {
     });
 }
 
-// Testimonial slider
+// iPhone Testimonial Slider
+let currentSlideIndex = 0;
+const totalSlides = 3;
+
 function initTestimonialSlider() {
-    const slider = document.querySelector('.testimonials-slider');
-    if (!slider) return;
-
-    let currentIndex = 0;
-    const cards = slider.querySelectorAll('.testimonial-card');
-    const totalCards = cards.length;
-
-    // Auto-rotate testimonials
+    const slides = document.querySelectorAll('.testimonial-slide');
+    const dots = document.querySelectorAll('.dot');
+    
+    // Auto-rotate slides every 5 seconds
     setInterval(() => {
-        cards[currentIndex].style.transform = 'translateX(-100%)';
-        currentIndex = (currentIndex + 1) % totalCards;
-        cards[currentIndex].style.transform = 'translateX(0)';
+        changeSlide(1);
     }, 5000);
+    
+    // Initialize first slide
+    showSlide(0);
+}
+
+function changeSlide(direction) {
+    currentSlideIndex += direction;
+    
+    if (currentSlideIndex >= totalSlides) {
+        currentSlideIndex = 0;
+    } else if (currentSlideIndex < 0) {
+        currentSlideIndex = totalSlides - 1;
+    }
+    
+    showSlide(currentSlideIndex);
+}
+
+function currentSlide(slideNumber) {
+    currentSlideIndex = slideNumber - 1;
+    showSlide(currentSlideIndex);
+}
+
+function showSlide(index) {
+    const slides = document.querySelectorAll('.testimonial-slide');
+    const dots = document.querySelectorAll('.dot');
+    
+    // Remove all classes and reset transforms
+    slides.forEach((slide, i) => {
+        slide.classList.remove('active', 'slide-left', 'slide-right');
+    });
+    
+    // Set up slide positions
+    slides.forEach((slide, i) => {
+        if (i < index) {
+            slide.classList.add('slide-left');
+        } else if (i > index) {
+            slide.classList.add('slide-right');
+        } else {
+            slide.classList.add('active');
+        }
+    });
+    
+    // Update dots
+    dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === index);
+    });
 }
 
 // Video modal functionality

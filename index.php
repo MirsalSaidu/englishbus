@@ -257,68 +257,155 @@
                 <h2 class="section-title">What Our Students Say</h2>
                 <p class="section-subtitle">Real stories from successful English learners</p>
             </div>
-            <div class="testimonials-slider">
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <p class="testimonial-text">
-                            "English Bus transformed my confidence in speaking English. The teachers are amazing and the flexible schedule fits perfectly with my work."
-                        </p>
-                        <div class="testimonial-author">
-                            <img src="assets/images/reviewer-1.svg" alt="Sarah" class="author-image">
-                            <div class="author-info">
-                                <h4 class="author-name">Sarah Johnson</h4>
-                                <p class="author-title">Software Engineer</p>
+            
+            <div class="testimonials-container">
+                <div class="testimonials-layout">
+                    <!-- iPhone Section (Left) -->
+                    <div class="iphone-section">
+                        <!-- Fixed iPhone 17 Pro Max Mockup -->
+                        <div class="iphone-mockup">
+                            <div class="iphone-frame">
+                                <div class="iphone-screen">
+                                    <!-- Fixed App Header -->
+                                    <div class="app-header">
+                                        <div class="status-bar">
+                                            <span class="time">9:41</span>
+                                            <div class="status-icons">
+                                                <i class="fas fa-signal"></i>
+                                                <i class="fas fa-wifi"></i>
+                                                <i class="fas fa-battery-three-quarters"></i>
+                                            </div>
+                                        </div>
+                                        <div class="app-title">English Bus</div>
+                                    </div>
+                                    
+                                    <!-- Sliding Testimonial Content -->
+                                    <div class="testimonials-content-slider">
+                                        <div class="testimonial-slide active">
+                                            <div class="testimonial-body">
+                                                <div class="stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <p class="testimonial-text">
+                                                    "English Bus transformed my confidence in speaking English. The teachers are amazing and the flexible schedule fits perfectly with my work."
+                                                </p>
+                                                <div class="testimonial-author">
+                                                    <img src="assets/images/reviewer-1.svg" alt="Sarah" class="author-image">
+                                                    <div class="author-info">
+                                                        <h4 class="author-name">Sarah Johnson</h4>
+                                                        <p class="author-title">Software Engineer</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="testimonial-slide">
+                                            <div class="testimonial-body">
+                                                <div class="stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <p class="testimonial-text">
+                                                    "I improved my business English significantly. Now I can confidently communicate with international clients and colleagues."
+                                                </p>
+                                                <div class="testimonial-author">
+                                                    <img src="assets/images/reviewer-2.svg" alt="Rajesh" class="author-image">
+                                                    <div class="author-info">
+                                                        <h4 class="author-name">Rajesh Kumar</h4>
+                                                        <p class="author-title">Business Manager</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="testimonial-slide">
+                                            <div class="testimonial-body">
+                                                <div class="stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                                <p class="testimonial-text">
+                                                    "The grammar course helped me understand complex rules easily. The interactive exercises made learning fun and effective."
+                                                </p>
+                                                <div class="testimonial-author">
+                                                    <img src="assets/images/reviewer-3.svg" alt="Priya" class="author-image">
+                                                    <div class="author-info">
+                                                        <h4 class="author-name">Priya Menon</h4>
+                                                        <p class="author-title">Student</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
+                        
+                        <!-- Auto-rotate indicator dots (no buttons) -->
+                        <div class="slider-dots">
+                            <span class="dot active" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
                         </div>
-                        <p class="testimonial-text">
-                            "I improved my business English significantly. Now I can confidently communicate with international clients and colleagues."
-                        </p>
-                        <div class="testimonial-author">
-                            <img src="assets/images/reviewer-2.svg" alt="Rajesh" class="author-image">
-                            <div class="author-info">
-                                <h4 class="author-name">Rajesh Kumar</h4>
-                                <p class="author-title">Business Manager</p>
+                    </div>
+                    
+                    <!-- Content Section (Right) -->
+                    <div class="testimonials-content">
+                        <div class="content-wrapper">
+                            <h3 class="content-title">Real Success Stories</h3>
+                            <p class="content-description">
+                                Join thousands of students who have transformed their English skills with English Bus. 
+                                Our innovative teaching methods and experienced instructors have helped learners from 
+                                all backgrounds achieve their language goals.
+                            </p>
+                            
+                            <div class="stats-grid">
+                                <div class="stat-item">
+                                    <div class="stat-number">10,000+</div>
+                                    <div class="stat-label">Happy Students</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-number">4.9/5</div>
+                                    <div class="stat-label">Average Rating</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-number">95%</div>
+                                    <div class="stat-label">Success Rate</div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                        <p class="testimonial-text">
-                            "The grammar course helped me understand complex rules easily. The interactive exercises made learning fun and effective."
-                        </p>
-                        <div class="testimonial-author">
-                            <img src="assets/images/reviewer-3.svg" alt="Priya" class="author-image">
-                            <div class="author-info">
-                                <h4 class="author-name">Priya Menon</h4>
-                                <p class="author-title">Student</p>
+                            
+                            <div class="features-list">
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Personalized Learning Paths</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Expert Native Teachers</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Flexible Schedule Options</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Interactive Learning Tools</span>
+                                </div>
+                            </div>
+                            
+                            <div class="cta-section">
+                                <p class="cta-text">Ready to start your English learning journey?</p>
+                                <button class="btn-primary cta-btn">Join English Bus Today</button>
                             </div>
                         </div>
                     </div>
