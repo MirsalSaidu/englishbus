@@ -485,7 +485,7 @@
             
             <div class="footer-bottom">
                 <div class="footer-bottom-content">
-                    <p>&copy; 2024 English Bus. All rights reserved.</p>
+                    <p>&copy; 2025 English Bus. All rights reserved.</p>
                     <div class="footer-bottom-links">
                         <a href="#">Privacy Policy</a>
                         <a href="#">Terms of Service</a>

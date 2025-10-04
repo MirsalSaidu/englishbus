@@ -420,7 +420,7 @@ function initScrollToTop() {
         right: 30px;
         width: 50px;
         height: 50px;
-        background: var(--primary-color);
+        background: #ea580c;
         color: white;
         border: none;
         border-radius: 50%;

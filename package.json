@@ -1,0 +1,24 @@
+{
+  "name": "english-bus-website",
+  "version": "1.0.0",
+  "description": "English Bus - Kerala's Best Online English Learning Platform",
+  "main": "index.php",
+  "scripts": {
+    "dev": "php -S localhost:3000",
+    "build": "echo 'No build step required for PHP'",
+    "start": "php -S localhost:3000"
+  },
+  "keywords": [
+    "english",
+    "learning",
+    "education",
+    "online",
+    "kerala",
+    "language"
+  ],
+  "author": "English Bus",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
