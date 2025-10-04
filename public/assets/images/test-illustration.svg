@@ -1,0 +1,10 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="300" fill="#f0f9ff"/>
+<rect x="50" y="50" width="300" height="200" rx="15" fill="white" stroke="#e5e7eb" stroke-width="2"/>
+<circle cx="200" cy="120" r="30" fill="#2563eb"/>
+<text x="200" y="130" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">?</text>
+<text x="200" y="180" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#1f2937" text-anchor="middle">English Test</text>
+<text x="200" y="210" font-family="Arial, sans-serif" font-size="14" fill="#6b7280" text-anchor="middle">Test your proficiency</text>
+<rect x="100" y="230" width="200" height="8" rx="4" fill="#e5e7eb"/>
+<rect x="100" y="230" width="120" height="8" rx="4" fill="#10b981"/>
+</svg>
