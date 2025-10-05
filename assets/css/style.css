@@ -856,18 +856,6 @@ body {
     position: relative;
 }
 
-.iphone-frame::before {
-    content: '';
-    position: absolute;
-    top: 15px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60px;
-    height: 4px;
-    background: #333;
-    border-radius: 2px;
-    z-index: 10;
-}
 
 .iphone-screen {
     background: var(--bg-primary); /* Use website's primary background color */
@@ -1747,10 +1735,10 @@ body {
     }
     
     .iphone-frame::before {
-        width: 100px; /* Mobile Dynamic Island */
-        height: 30px;
-        border-radius: 15px;
-        top: 10px;
+        width: 80px; /* Mobile Dynamic Island */
+        height: 18px;
+        border-radius: 9px;
+        top: 12px;
     }
     
     .slider-dots {
